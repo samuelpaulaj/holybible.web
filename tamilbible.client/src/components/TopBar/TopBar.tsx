@@ -5,7 +5,7 @@ const TopBar = () => {
   return (
     <Box className="topbar">
       <Box marginLeft={"0.2rem"}>
-        <Typography>Welcome to The Churches of christ</Typography>
+        <Typography>Welcome to The Churches of Christ</Typography>
       </Box>
       <Box>
         <Button>Contact</Button>

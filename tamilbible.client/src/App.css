@@ -1,12 +1,14 @@
-﻿body, html {
-    margin: 0;
-    font-family: "Lato", sans-serif;
-  }
-
+﻿body,
+html {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  height: 100%;
+}
 
 @font-face {
   font-family: "Lato-Bold";
-  src: url('../src/styles/fonts/Lato-Bold.ttf') format('ttf');
+  src: url("../src/styles/fonts/Lato-Bold.ttf") format("ttf");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -14,7 +16,7 @@
 
 @font-face {
   font-family: "Lato";
-  src: url('../src/styles/fonts/Lato-Regular.ttf') format('ttf');
+  src: url("../src/styles/fonts/Lato-Regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -22,7 +24,7 @@
 
 @font-face {
   font-family: "Lato";
-  src: url('../src/styles/fonts/Lato-Black.ttf') format('ttf');
+  src: url("../src/styles/fonts/Lato-Black.ttf") format("ttf");
   font-weight: bold;
   font-style: normal;
   font-display: swap;

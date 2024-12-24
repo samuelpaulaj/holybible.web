@@ -13,7 +13,15 @@ import "./NavBar.scss";
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 
-const pages = ["Home", "Index", "Lists", "Word Search", "Help"];
+const pages = [
+  "Home",
+  "Index",
+  "Lists",
+  "Word Search",
+  "Bible Quiz",
+  "Favorites",
+  "Help",
+];
 
 const NavBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
