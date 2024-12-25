@@ -1,4 +1,4 @@
-import { AppBar, Box, Grid2 } from "@mui/material";
+import { Box, Grid2 } from "@mui/material";
 import TopBar from "./TopBar/TopBar.tsx";
 import Header from "./Header/Header.tsx";
 import Navigation from "./Navigation/Navigation.tsx";
