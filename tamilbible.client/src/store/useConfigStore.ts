@@ -9,12 +9,10 @@ interface configStore {
 const getConfig = () => {
   let baseConfig = [
     { id: 1, name: "Home" },
-    { id: 2, name: "Index" },
-    { id: 3, name: "Lists" },
-    { id: 4, name: "Word Search" },
-    { id: 5, name: "Bible Quiz" },
-    { id: 6, name: "Favorites" },
-    { id: 7, name: "Help" },
+    { id: 2, name: "Bible" },
+    { id: 3, name: "Bible Quiz" },
+    { id: 4, name: "Gospel" },
+    { id: 5, name: "Help" },
   ];
   return baseConfig;
 };

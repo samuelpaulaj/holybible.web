@@ -19,14 +19,19 @@ const TodayVerse = () => {
           display: "flex",
           flexDirection: "column",
           //   alignContent: "center",
+
           alignItems: "center",
           justifyContent: "center",
         }}
       >
-        <Typography sx={{ textAlign: "center" }}>
-          நானும் என் வீட்டாருமோவென்றால், கர்த்தரையே சேவிப்போம் என்றான்
+        <Typography fontSize={"20px"} sx={{ textAlign: "center" }}>
+          நானும் என் வீட்டாருமோவென்றால், கர்த்தரையே சேவிப்போம்.
         </Typography>
-        <Typography fontSize={"12px"} fontWeight={"bold"} sx={{ marginTop: "0.2rem" }}>
+        <Typography
+          fontSize={"12px"}
+          fontWeight={"bold"}
+          sx={{ marginTop: "0.6rem" }}
+        >
           யோசுவா 24 : 15
         </Typography>
       </Box>
