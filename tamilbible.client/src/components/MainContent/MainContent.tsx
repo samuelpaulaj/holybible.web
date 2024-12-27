@@ -32,7 +32,12 @@ const MainContent = () => {
         return <HomeContent />;
     }
   };
-  return <Box className="maincontent"> {renderSelectedNav(selectedNav)}</Box>;
+  return (
+    <Box sx={{ width: "100vw" }} className="maincontent">
+      {" "}
+      {renderSelectedNav(selectedNav)}
+    </Box>
+  );
 };
 
 export default MainContent;
